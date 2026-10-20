@@ -1,0 +1,55 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PASS weapon 0 combo 0 phases
+PASS weapon 0 combo 1 phases
+PASS weapon 0 combo 2 phases
+PASS weapon 0 combo 3 phases
+PASS weapon 1 combo 0 phases
+PASS weapon 1 combo 1 phases
+PASS weapon 1 combo 2 phases
+PASS weapon 1 combo 3 phases
+PASS weapon 2 combo 0 phases
+PASS weapon 2 combo 1 phases
+PASS weapon 2 combo 2 phases
+PASS weapon 2 combo 3 phases
+PASS weapon 3 combo 0 phases
+PASS weapon 3 combo 1 phases
+PASS weapon 3 combo 2 phases
+PASS weapon 3 combo 3 phases
+PASS weapon 4 combo 0 phases
+PASS weapon 4 combo 1 phases
+PASS weapon 4 combo 2 phases
+PASS weapon 4 combo 3 phases
+PASS nearest mode selects nearest
+PASS strongest mode selects boss
+PASS lock stays stable
+PASS out-of-range lock reacquires
+PASS manual mode has no target
+PASS manual facing follows movement
+PASS manual facing persists after stopping
+PASS auto lock stays independent mode 0
+PASS auto lock stays independent mode 1
+PASS movement rule weapon 0
+PASS movement rule weapon 1
+PASS movement rule weapon 2
+PASS movement rule weapon 3
+PASS sword directional one hit
+PASS same swing cannot double-hit
+PASS spear third sweeps behind
+PASS bow third fires three arrows
+PASS spread cannot shotgun one target
+PASS bow fourth retreats half body
+PASS push below one body
+PASS weight and armor reduce push
+PASS continuous knockback capped at body width
+PASS stone blocks movement
+PASS one-way permits up
+PASS one-way blocks down
+PASS low cover permits arrows
+PASS low cover blocks melee
+PASS breakable becomes hidden walkable floor
+PASS enemy stops within range
+PASS enemy locked attack can miss
+PASS interrupted combo resets after recovery
+PASS mode change waits until next attack
+RESULT: 52 checks, 0 failures

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "starter_spear"
+display_name = "破阵枪"
+item_type = "weapon"
+weapon_type = "spear"
+price = 50
+weight = 5.0
+grid_size = Vector2i(1, 3)
+base_damage = 25.0
+strength_scaling = 0.6
+agility_scaling = 0.3
+attack_template = 3
+attack_range = 190.0
+active_skill = {"id": "line_thrust", "name": "穿阵", "cooldown_group": "line_thrust", "mana": 14, "cooldown": 9, "multiplier": 1.4, "shape": "thrust", "range": 190, "width": 30, "targets": 2, "active": 0.14}
+description = "枪2远端命中制造破绽；完整准备后，枪4远端伤害+20%。"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/armor_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "boots_light"
+display_name = "轻型鞋"
+item_type = "armor"
+slot = "boots"
+armor_material = "light"
+price = 30
+weight = 1.5
+defense = 5.0
+knockback_resistance = 0.01
+flat = {"agility": 1.0}
+grid_size = Vector2i(2, 2)

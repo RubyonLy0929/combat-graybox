@@ -1,0 +1,9 @@
+# Godot生成缓存及本地配置
+.godot/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+export_credentials.cfg
+*.exe
+*.pck

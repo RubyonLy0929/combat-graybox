@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "starter_whip"
+display_name = "缚影鞭"
+item_type = "weapon"
+weapon_type = "whip"
+price = 50
+weight = 2.0
+grid_size = Vector2i(1, 3)
+base_damage = 22.0
+strength_scaling = 0.2
+agility_scaling = 0.5
+attack_template = 2
+attack_range = 180.0
+active_skill = {"id": "bind_sweep", "name": "束足", "cooldown_group": "bind_sweep", "mana": 12, "cooldown": 9, "multiplier": 0.8, "shape": "arc", "arc": 150, "range": 175, "status": "slow", "active": 0.15}
+description = "鞭2命中两敌制造牵制；准备后的鞭4消耗牵制，追加一次25%基准伤害。"

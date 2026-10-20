@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "starter_sword"
+display_name = "追风剑"
+item_type = "weapon"
+weapon_type = "sword"
+price = 50
+weight = 3.0
+grid_size = Vector2i(1, 3)
+base_damage = 18.0
+strength_scaling = 0.5
+agility_scaling = 0.3
+attack_template = 0
+attack_range = 125.0
+active_skill = {"id": "piercing_dash", "name": "穿隙", "cooldown_group": "piercing_dash", "mana": 10, "cooldown": 7, "multiplier": 1.2, "shape": "thrust", "range": 95, "width": 24, "dash": 1.0, "active": 0.12, "targets": 2}
+description = "剑12命中准备：剑4暴击率+20个百分点。跨武器剑3消耗破绽，可贯穿两敌。"

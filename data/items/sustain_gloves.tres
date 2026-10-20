@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/armor_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "sustain_gloves"
+display_name = "续战护腕"
+slot = "gloves"
+armor_material = "light"
+rarity = "special"
+weight = 0.6
+defense = 1.0
+grid_size = Vector2i(2, 1)
+effects = Array[Dictionary]([{"id": "hit_heal", "amount": 0.005}])
+description = "每个有效攻击组恢复最大生命0.5%，内部冷却0.5秒。范围、散射只算一次；挥空、影子和木偶不回复。"

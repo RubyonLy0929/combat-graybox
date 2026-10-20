@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "old_city_rune"
+display_name = "旧城符文"
+item_type = "quest"
+weightless = true

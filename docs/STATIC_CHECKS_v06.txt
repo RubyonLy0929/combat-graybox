@@ -1,0 +1,7 @@
+v0.6 static checks
+GDScript grammar: 24 scripts passed (gdtoolkit 4.5.0).
+Resource references: passed.
+37 unique item ids; skill identity/cost/cooldown fields checked.
+Godot semantic import/runtime: not run; engine unavailable.
+Gameplay and balance tests: deferred at user request.
+Old tests/validation.txt is historical, not v0.6 evidence.

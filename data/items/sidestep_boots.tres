@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/armor_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "sidestep_boots"
+display_name = "侧步靴"
+slot = "boots"
+armor_material = "light"
+rarity = "special"
+weight = 0.8
+defense = 1.0
+grid_size = Vector2i(2, 2)
+active_skill = {"id": "sidestep", "name": "侧步", "cooldown_group": "sidestep", "mana": 8, "cooldown": 6, "mode": "sidestep", "shape": "none", "dash": 0.75, "active": 0.12, "movement": 1.0}
+description = "装备主动：沿移动方向位移0.75身位，无移动时后退。耗蓝8，CD6秒，无无敌帧，碰撞截停；需要选入2/3技能栏。"

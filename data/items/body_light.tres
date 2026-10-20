@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/armor_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "body_light"
+display_name = "轻型胸甲"
+item_type = "armor"
+slot = "body"
+armor_material = "light"
+price = 30
+weight = 4.5
+defense = 15.0
+knockback_resistance = 0.03
+flat = {"agility": 1.0}
+grid_size = Vector2i(2, 3)

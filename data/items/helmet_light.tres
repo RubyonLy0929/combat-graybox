@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/armor_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "helmet_light"
+display_name = "轻型头盔"
+item_type = "armor"
+slot = "helmet"
+armor_material = "light"
+price = 30
+weight = 2.25
+defense = 7.5
+knockback_resistance = 0.015
+flat = {"agility": 1.0}
+grid_size = Vector2i(2, 2)

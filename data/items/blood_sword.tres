@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "blood_sword"
+display_name = "血契剑"
+item_type = "weapon"
+weapon_type = "sword"
+rarity = "special"
+price = 160
+weight = 3.0
+grid_size = Vector2i(1, 3)
+base_damage = 18.0
+strength_scaling = 0.5
+agility_scaling = 0.3
+attack_template = 0
+attack_range = 125.0
+active_skill = {"id": "blood_lunge", "name": "血袭", "cooldown_group": "blood_lunge", "mana": 10, "cooldown": 7, "multiplier": 1.2, "shape": "thrust", "range": 95, "width": 24, "dash": 0.75, "active": 0.12}
+effects = Array[Dictionary]([{"id": "blood_cost", "cost": 0.01, "bonus": 0.15}])
+description = "普通攻击每次支付最大生命1%，伤害+15%。挥空照扣；支付后至少留1生命，不足则不能出手。"

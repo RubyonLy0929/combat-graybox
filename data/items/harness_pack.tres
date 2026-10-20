@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/backpack_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "harness_pack"
+display_name = "带支撑背包"
+item_type = "backpack"
+weight = 2.0
+inventory_size = Vector2i(10, 6)
+carry_capacity_bonus = 10.0
+burden_reduction = 0.15
+grid_size = Vector2i(2, 3)

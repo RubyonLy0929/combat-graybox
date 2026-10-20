@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "starter_bow"
+display_name = "逐猎弓"
+item_type = "weapon"
+weapon_type = "bow"
+price = 50
+weight = 2.0
+grid_size = Vector2i(2, 3)
+base_damage = 23.0
+strength_scaling = 0.2
+agility_scaling = 0.6
+attack_template = 4
+attack_range = 430.0
+active_skill = {"id": "root_arrow", "name": "钉足箭", "cooldown_group": "root_arrow", "mana": 12, "cooldown": 8, "multiplier": 1, "shape": "arrow", "range": 390, "status": "root", "active": 0.001}
+description = "弓2施加猎印；准备后的弓4消耗猎印穿两敌。跨武器弓4消耗失衡增伤20%。"

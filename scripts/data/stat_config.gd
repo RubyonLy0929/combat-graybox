@@ -1,0 +1,29 @@
+extends Resource
+## Initial balancing values, not final balance decisions.
+@export var attribute_baseline: float = 10.0
+@export var health_per_constitution: float = 10.0
+@export var health_regen_per_constitution: float = 0.05
+@export var mana_per_spirit: float = 5.0
+@export var mana_regen_per_spirit: float = 0.10
+@export var magic_per_spirit: float = 1.0
+@export var capacity_per_strength: float = 2.0
+@export var agility_half_saturation: float = 40.0
+@export var max_move_multiplier: float = 1.4
+@export var max_attack_speed: float = 1.3
+@export var agility_crit_gain: float = 0.15
+@export var max_crit_chance: float = 0.75
+@export var max_lifesteal: float = 0.30
+@export var max_burden_reduction: float = 0.80
+@export var max_knockback_resistance: float = 0.80
+@export var penalty_start_ratio: float = 0.70
+@export var move_penalty_at_capacity: float = 0.20
+@export var attack_penalty_at_capacity: float = 0.15
+@export var move_penalty_per_overload: float = 0.50
+@export var attack_penalty_per_overload: float = 0.35
+@export var min_move_factor: float = 0.25
+@export var min_attack_factor: float = 0.40
+@export var mass_half_resistance: float = 50.0
+@export var defense_constant: float = 100.0
+@export var min_windup: float = 0.05
+@export var min_active: float = 0.001
+@export var min_recovery: float = 0.05

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/accessory_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "hurt_amulet"
+display_name = "伤誓坠饰"
+rarity = "special"
+weight = 0.2
+grid_size = Vector2i(1, 1)
+effects = Array[Dictionary]([{"id": "hurt_rage"}])
+description = "实际受伤或支付血契成本后，1.5秒内攻速+15个百分点、吸血+4个百分点。0.5秒触发间隔，不叠层，遵守总属性上限。"

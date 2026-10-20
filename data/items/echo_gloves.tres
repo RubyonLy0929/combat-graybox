@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/armor_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "echo_gloves"
+display_name = "残像手套"
+slot = "gloves"
+armor_material = "cloth"
+rarity = "special"
+weight = 0.4
+defense = 0.0
+grid_size = Vector2i(2, 1)
+effects = Array[Dictionary]([{"id": "shadow_echo"}])
+description = "普通攻击判定开始0.3秒后，影子在原位置、原方向补击35%未暴击伤害。不追踪、不吸血、不返蓝、不击退。"

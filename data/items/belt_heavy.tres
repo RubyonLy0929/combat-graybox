@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/armor_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "belt_heavy"
+display_name = "重型腰带"
+item_type = "armor"
+slot = "belt"
+armor_material = "heavy"
+price = 30
+weight = 3.0
+defense = 10.0
+knockback_resistance = 0.03
+flat = {"constitution": 1.0}
+grid_size = Vector2i(2, 2)

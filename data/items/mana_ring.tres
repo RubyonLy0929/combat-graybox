@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/accessory_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "mana_ring"
+display_name = "润灵指环"
+rarity = "special"
+weight = 0.1
+grid_size = Vector2i(1, 1)
+effects = Array[Dictionary]([{"id": "hit_mana", "amount": 2.0}])
+description = "每个有效直接攻击组返蓝2，内部冷却0.5秒。散射/多目标只返一次；影子、木偶和场景物件不返蓝。"

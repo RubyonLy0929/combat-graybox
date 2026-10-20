@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/armor_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "unyielding_body"
+display_name = "不屈胸甲"
+slot = "body"
+armor_material = "heavy"
+rarity = "special"
+weight = 5.5
+defense = 8.0
+knockback_resistance = 0.1
+grid_size = Vector2i(2, 3)
+active_skill = {"id": "stability_heal", "name": "不屈", "cooldown_group": "stability_heal", "mana": 16, "cooldown": 12, "mode": "stability", "shape": "none", "active": 0.01, "movement": 1.0}
+description = "装备主动：1.5秒内最多免除2次攻击打断，每秒回血2%。仍受伤、仍击退；需选入2/3技能栏。重量较高。"

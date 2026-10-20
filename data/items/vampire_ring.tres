@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/accessory_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "vampire_ring"
+display_name = "汲取指环"
+item_type = "accessory"
+weight = 0.1
+flat = {"lifesteal": 0.03}
