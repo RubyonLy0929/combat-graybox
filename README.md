@@ -6,7 +6,7 @@ Godot 4 / 2D即时战斗 / 双武器连段 / 装备组合 / 两阶段Boss
 
 ## 下载与运行
 
-**[下载 Windows 试玩包](https://github.com/RubyonLy0929/combat-graybox/releases/download/v0.8/CombatGraybox-v0.8-Windows.zip)** · **[下载 Godot 工程](https://github.com/RubyonLy0929/combat-graybox/releases/download/v0.8/CombatGraybox-v0.8-Source.zip)** · [版本说明](https://github.com/RubyonLy0929/combat-graybox/releases/tag/v0.8)
+**[下载 Windows 试玩包](https://github.com/RubyonLy0929/combat-graybox/releases/download/v0.8.0/CombatGraybox-v0.8-Windows.zip)** · **[下载 Godot 工程](https://github.com/RubyonLy0929/combat-graybox/releases/download/v0.8.0/CombatGraybox-v0.8-Source.zip)** · [版本说明](https://github.com/RubyonLy0929/combat-graybox/releases/tag/v0.8.0)
 
 1. 下载后完整解压。
 2. 打开 `Giant Demon Boss Graybox v0.8.exe`。
